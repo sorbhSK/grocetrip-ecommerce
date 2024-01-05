@@ -1,0 +1,350 @@
+body{
+  font-family: 'Inter', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.cursorPointer{
+  cursor: pointer;
+}
+.color_grey{
+  color: #0000008c;
+}
+.color_Theme{
+  color:rgb(247, 84, 53)
+}
+.color_green{
+  color: #17B216;
+}
+.bgcolor_grey{
+  background-color: #eef3f7;
+}
+.bgcolor_green{
+  background-color: #17B216;
+}
+.loginInputs:focus-visible {
+  outline: none;
+}
+.loginInputs {
+  background: #eef3f7;
+  border: none;
+  padding: 9px 10px;
+  border-radius: 7px;
+}
+.flagBox{
+  border-right: 1px solid #d6dde1fd ;
+  padding: 10px 7px;
+}
+.searchIcon {
+  padding: 10px;
+}
+.LoginMain {
+  padding: 50px 50px;
+  box-shadow: #c9bebe61 0px 0px 9px 0px;
+}
+.LoginMain-Upper{
+  width: 40%;
+}
+.forgotpassword{
+  cursor: pointer;
+  color: #319cf4;
+}
+.forgotpassword:hover{
+  color: #0872c9;
+}
+.LoginBtn:focus-visible {
+  background: #F25A29;
+  color: #fff;
+}
+.LoginBtn:active {
+  background: #F25A29 !important;
+  color: #fff !important;
+  border-color:transparent !important;
+}
+.LoginBtn {
+  background-color: #F25A29;
+  padding: 9px;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 7px;
+  box-shadow: #f25a29c9 0px 0px 9px 0px;
+}
+.LoginBtn:hover{
+  background-color: #F25A29;
+  color: rgb(228, 217, 217);
+}
+.GoToCartBtn {
+  background: #17B216;
+  box-shadow: #118311 0px 0px 9px 0px;
+}
+.GoToCartBtn:hover{
+  background-color: #1aa51a;
+  color: rgb(235, 227, 227);
+}
+.GoToCartBtn:focus-visible {
+  background: #17B216;
+  color: #fff;
+}
+.GoToCartBtn:active {
+  background: #17B216 !important;
+  color: #fff !important;
+  border-color:transparent !important;
+}
+.addTransition{
+  transition: 0.5s;
+}
+.Accept-Text{
+  font-size: 15px;
+  vertical-align:top;
+}
+.flagBox i {
+  font-size: 10px;
+}
+.SendAgainBtn:hover{
+  color: #d54515;
+}
+.NumberContent {
+  width: 14.5%;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+.NumberContentMain {
+  gap: 28px;
+}
+.InputMain{
+  border-radius:7px;
+}
+.MapClass{
+  height: 400px;
+  width: 100%;
+}
+.BrandsMain {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid #0000001a;
+  text-align: center;
+}
+.categoryInner {
+  background: #FEF0E5;
+  width: 347px;
+  padding: 27px;
+  border-radius: 10px;
+}
+.sectionsHeading{
+  font-size: 23px;
+}
+.categoryMain{
+  overflow: auto;
+}
+.categoryMain div{
+  gap: 37px;
+}
+.LikeImg {
+  right: 15px;
+  top: 15px;
+}
+.CartInner p,.product_desc{
+  font-size: 14px;
+}
+.addBtn {
+  border: 1px solid #F25A29;  
+  color: #F25A29;
+  border-radius: 4px;
+  padding: 6px 13px;
+}
+.addBtn:hover {
+  color: #fff;
+  border: 1px solid #F25A29;
+  background-color: #F25A29;
+}
+.ProductMain > div{
+  gap: 37px;
+}
+.productInner {
+  border: 1px solid #DDDDDD;
+  border-radius: 8px;
+  width: 22.5%;
+}
+.productInner > div{
+  padding: 20px;
+}
+
+.productInner:hover{
+  border: 1px solid #9c9a9a;
+  box-shadow: #0000001c 0px 0px 9px 1px;
+}
+.product-Imgs{
+  height: 130px;
+}
+#navbarNav ul li a {
+  font-size: 18px;
+  color: #fff !important;
+}
+#navbarNav ul li a:hover {
+  color:#ffebeb !important;
+}
+#navbarNav ul li:first-child a{
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+.CartInner ,.Supermarkets {
+  border: 1px solid #DDDDDD;
+  border-radius: 7px;
+}
+.SuperMarkets{
+  margin-top: 150px;
+}
+.CartMain .container>div ,.ShoppingList .container>div{
+  width: 60%;
+}
+.CartMain .addBtn {
+  font-size: 23px;
+  padding: 0px 13px;
+}
+.ProductsPrice,.cartCount{
+  font-size: 20px;
+}
+.cartImage{
+  width: 18%;
+}
+.productDetail {
+  line-height: 30px;
+}
+.OtherSuperMarkets {
+  border-bottom: 1px solid #00000012;
+}
+.OtherSuperMarkets:hover {
+  border-bottom: 1px solid #0000002b;
+  background: #dddddd7a;
+}
+.btn:disabled {
+  background-color: #F25A29 !important;
+  color: #fff;
+  border: 1px solid #F25A29 !important;
+}
+.categoryInnerBg:nth-child(odd) {
+  background-color: #FEF0E5;
+}
+.categoryInnerBg:nth-child(even) {
+  background-color: #E6F3EA;
+}
+.MainCategory .categoryInner{
+  padding: 32px 27px;
+  margin: 30px 0px;
+  width: 85%;
+}
+.Supermarkets_Inner{
+  width:25%;
+}
+.MapInput {
+  top: 7px !important;
+  padding: 9px 14px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.powerIcon{
+  font-size: 50px;
+}
+.ProfileInner{
+  width: 85%;
+}
+.smallIcons{
+  width: 25px;
+}
+.profileOptions{
+  border-bottom: 1px solid #c6cbce00;
+  border-top: 1px solid #c6cbce00;
+  padding: 20px 0;
+}
+.profileOptions:hover {
+  background: #eef3f7;
+  border-bottom: 1px solid #c6cbce;
+  border-top: 1px solid #c6cbce;
+}
+.policyContent,.termsCondition{
+  font-size: 21px;
+  letter-spacing: 1px;
+}
+.notificatioIcon {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 18px solid #17B216;
+  padding: 13px;
+}
+.notificationBlocks {
+  background-color: #1A581933;
+  padding: 27px;
+  border-radius: 10px;
+  border: 2px solid #1A581933;
+  margin: 35px 0px 
+}
+.notificationBlocks > div {
+  gap: 35px ;
+}
+.NotificationMain{
+  width: 68%;
+}
+.profileLabels {
+  font-size: 21px;
+  padding: 10px 0px;
+}
+.profileInputs{
+  background-color: #F6F6F6;
+}
+.profileInputs {
+  background-color: #F6F6F6;
+  padding: 15px;
+}
+.profileInputs::placeholder{
+  color: #BBBBBB;
+} 
+.profileFileLabels {
+  width: 185px;
+  height: 185px;
+  background: #EEEEEE;
+  border-radius: 50%;
+  padding: 65px;
+}
+.profileFileLabelsForImage{
+  width: 185px;
+  height: 185px;
+  background: #f7f9ff;
+  border-radius: 50%;
+  border: 3px solid #EEEEEE;
+  padding: 35px;
+}
+.ProfileInputsContainer {
+  width: 50%;
+  margin: 10px 0px;
+}
+.ImageContainer .ProfileInputsContainer {
+  width: 25%;
+  text-align: start;
+  margin: 0;
+}
+.ProfileInputsContainer textarea{
+  resize: none;
+}
+.ProfileHeading{
+  font-size: 55px;
+}
+.ProfileInputsContainer .LoginBtn {
+  width: 70%;
+  padding: 18px;
+  font-size: 21px;
+  text-align: center;
+}
+.profileInputs:focus {
+  outline: 0px;
+  border: 1px solid #dee2e6;
+  box-shadow: none;
+  background: #F6F6F6;
+}
